@@ -5,7 +5,7 @@ Disclaimer: This is very experimental, and will likely require tons of testing.
 
 # Prerequisites #
 
-A homebrewed 3DS on the latest version of Luma3DS (If you don't have Luma3DS, or haven't heard of the term Luma3DS, follow 3ds.guide. Come back when you're finished!)
+A homebrewed 3DS on the latest version of Luma3DS with boot9strap (If you haven't homebrewed your 3DS yet, follow 3ds.guide to join the party.)
 
 A computer that can access your SD card (You're probably reading this readme on that computer.)
 
@@ -13,20 +13,20 @@ A computer that can access your SD card (You're probably reading this readme on 
 # Installing Ultra Moon #
 
 Get some form of Pokemon Ultra Moon. Download and install a rom from that site, grab your cart, rip then install a rom, just get Ultra Moon on your 3DS in a playable state somehow. However, I highly recommend supporting the devs and downloading Ultra Moon off of the eShop or buying an Ultra Moon cart if you don't have it or Ultra Sun. :D Those methods are much quicker and simpler, and they tell Game Freak that you like USUM, and hope they do more games like that in the future.
-(Note that only Ultra Moon will work for this. The rom hack simply wasn't made with Ultra Sun in mind.)
+(Note that only Ultra Moon will work for these instructions. The rom hack simply wasn't made with Ultra Sun in mind.)
 
 ## eShop Method (Recommended) ##
 1. Download the game off the eShop.
 2. You're done!
 
 ## Using a regular cart (Recommended) ##
-1. No setup needed! Go to Installing The Rom Hack! :D (Note that you will need to insert your Ultra Moon cart every time you want to play Pokemon Star!)
+1. No setup needed! Go to Installing The Rom Hack! :D (Note that you will need to insert your Ultra Moon cart every time you want to play Pokemon Star, and for the rest of the guide, we'll assume that you have your cartrige inserted.)
 
 ## Convert .3ds rom to CIA ##
 1. Do one of the two below methods for getting your rom.
 2. Select NCSD image options, then choose Build CIA from file. (This will take some time.)
 
-### Rip a .3ds rom ###
+### Rip a .3ds rom from cartridge ###
 1. Boot into GodMode9 by holding Start upon boot. If you see multiple options, select GodMode9.
 2. Insert your cart, then find 00040000001B5100_v00.3ds.
 3. Push A, then select NCSD image options, then choose Decrypt file (0:/gm9/out) (This will take some time.)
@@ -49,8 +49,8 @@ Get some form of Pokemon Ultra Moon. Download and install a rom from that site, 
 # Installing The Rom Hack #
 
 1. If applicable, make a backup of your Ultra Moon save using Checkpoint (you should already have it), name it something you'll remember (like UltraMoonSave), then delete your savefile in-game with D-Up + X + B. (Don't delete the backup!) Shut down your 3DS afterwards.
-2. Download PokemonStarLuma.bin (Very large, so will likely take a while.)
-3. When you've downloaded it, move it to /luma/titles/00040000001B5100 on your 3DS's SD card.
+2. Download PokemonStarLuma.zip (Very large, so will likely take a while.)
+3. When you've downloaded it, unzip it and move the romfs folder inside to /luma/titles/00040000001B5100 on your 3DS's SD card. (If the folder doesn't exist, create it)
 4. Hold Select when turning your 3DS back on.
 5. Turn on game patching in the Luma3DS config menu, then press start to leave the menu.
 6. Open Pokemon Ultra Moon and watch the fireworks fly. If you get a green screen, then the top of the screen says Pokemon Star v0.2 after the title screen, it's a good sign.
@@ -62,10 +62,10 @@ Get some form of Pokemon Ultra Moon. Download and install a rom from that site, 
 2. Restore your vanilla save backup.
 3. Turn off your 3DS, then turn it on again while holding Select.
 4. Turn off game patching in the Luma3DS config menu, then press start to leave the menu.
-5. If you want to delete Pokemon Star, then go into /luma/titles/00040000001B5100 and delete PokemonStarLuma.bin. (Optional)
+5. If you want to delete Pokemon Star, then go into /luma/titles/00040000001B5100 and delete the romfs folder. (Optional)
 
 
 # Going Back To Pokemon Star #
 
-1. Follow Going Back To Vanilla, but do the opposite of 1 and 2. (Back up your vanilla save, then restore your Pokemon Star save.)
+1. Follow Going Back To Vanilla, but do the opposite of 1 - 4. (Back up your vanilla save, restore your Pokemon Star save, then turn back on game patching.)
 2. If you deleted Pokemon Star, redownload it and put it back in /luma/titles/00040000001B5100.
