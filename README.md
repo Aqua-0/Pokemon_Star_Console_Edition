@@ -1,6 +1,8 @@
 # Pokemon Star: Luma Edition
 Taking Pokemon Star and turning it into a Luma3DS patch that may be console-playable.
 
+Disclaimer: This is very experimental, and will likely require tons of testing.
+
 # Prerequisites #
 
 A homebrewed 3DS on the latest version of Luma3DS (If you don't have Luma3DS, or haven't heard of the term Luma3DS, follow 3ds.guide. Come back when you're finished!)
