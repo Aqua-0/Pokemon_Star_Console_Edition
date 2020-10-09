@@ -1,5 +1,5 @@
 # Pokemon Star v0.2: Luma Edition
-Taking Pokemon Star v0.2 and turning it into a Luma3DS patch that may be console-playable.
+Taking Pokemon Star v0.2, made by Rusyaas and turning it into a Luma3DS patch that may be console-playable.
 
 Disclaimer: This is very experimental, and very unfinished. If you want to help this to not be a lost cause and finally make Pokemon Star playable on console, throw all the ideas you have at me.
 
