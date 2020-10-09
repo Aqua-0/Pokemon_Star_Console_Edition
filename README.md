@@ -20,11 +20,12 @@ Get some form of Pokemon Ultra Moon. Download and install a rom from that site, 
 2. You're done!
 
 ## Using a regular cart (Recommended) ##
-1. No setup needed! Go to Installing The Rom Hack! :D (Note that you will need to insert your Ultra Moon cart every time you want to play Pokemon Star, and for the rest of the guide, we'll assume that you have your cartrige inserted.)
+1. No setup needed! Go to Installing The Rom Hack! :D (Note that you will need to insert your Ultra Moon cart every time you want to play Pokemon Star, and for the rest of the guide we'll assume that you have your cartrige inserted.)
 
 ## Convert .3ds rom to CIA ##
 1. Do one of the two below methods for getting your rom.
 2. Select NCSD image options, then choose Build CIA from file. (This will take some time.)
+3. Use FBI to install the CIA. (This will take some time.)
 
 ### Rip a .3ds rom from cartridge ###
 1. Boot into GodMode9 by holding Start upon boot. If you see multiple options, select GodMode9.
@@ -42,7 +43,7 @@ Get some form of Pokemon Ultra Moon. Download and install a rom from that site, 
 
 ## Install a CIA from the internet (Very unrecommended) ##
 1. Find the .cia somewhere. (Blatant piracy isn't cool, so I can't help you with this one. Be careful, tainted CIAs may do something malicous or be the wrong game)
-2. Use FBI to install the CIA.
+2. Use FBI to install the CIA. (This will take some time.)
 
 
 
