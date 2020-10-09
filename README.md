@@ -62,10 +62,10 @@ Get some form of Pokemon Ultra Moon. Download and install a rom from that site, 
 2. Restore your vanilla save backup.
 3. Turn off your 3DS, then turn it on again while holding Select.
 4. Turn off game patching in the Luma3DS config menu, then press start to leave the menu.
-4a. If you want to delete Pokemon Star, then go into /luma/titles/00040000001B5100 and delete PokemonStarLuma.bin. (Optional)
+5. If you want to delete Pokemon Star, then go into /luma/titles/00040000001B5100 and delete PokemonStarLuma.bin. (Optional)
 
 
 # Going Back To Pokemon Star #
 
 1. Follow Going Back To Vanilla, but do the opposite of 1 and 2. (Back up your vanilla save, then restore your Pokemon Star save.)
-1a. If you deleted Pokemon Star, redownload it and put it back in /luma/titles/00040000001B5100
+2. If you deleted Pokemon Star, redownload it and put it back in /luma/titles/00040000001B5100.
