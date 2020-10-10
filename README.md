@@ -55,6 +55,9 @@ Get some form of Pokemon Ultra Moon. Download and install a rom from that site, 
 
 # Installing The Rom Hack #
 
+OOPS! Since the thing's still being created, just ignore everything from this part onwards. :P
+
+
 If migrating from Citra, go to Migrating From Citra.
 1. If applicable make a backup of your Ultra Moon save using Checkpoint (you should already have it), name it something you'll remember (like UltraMoonSave), then delete your savefile in-game with D-Up + X + B. (Don't delete the backup!) Shut down your 3DS afterwards.
 2. Download PokemonStarLuma.zip (Very large, so will likely take a while.)
