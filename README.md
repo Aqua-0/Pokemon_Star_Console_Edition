@@ -88,5 +88,5 @@ If migrating from Citra, go to Migrating From Citra.
 
 
 # Changelog #
-v0.1: Initial Release (3.51 GB Install Size)
-The original release of Luma Edition. Probably won't work.
+v0.1 Initial Release (??? GB)
+Trying to find out a way that it'll work... Hang tight!
