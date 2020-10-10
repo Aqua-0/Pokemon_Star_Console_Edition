@@ -1,15 +1,17 @@
 # Pokemon Star v0.2: Luma Edition
 Taking Pokemon Star v0.2, made by Rusyaas and turning it into a Luma3DS patch that may be console-playable.
 
-Disclaimer: This is very experimental, and very unfinished. If you want to help this to not be a lost cause and finally make Pokemon Star playable on console, throw all the ideas you have at me.
+Disclaimer: This is very experimental, and very unfinished. If you want to help this to not be a lost cause and finally make Pokemon Star playable on console, throw all the ideas you have at me. Furthermore, since the technique hasn't been quite refined yet, simply ignore this readme for now. If you really want to, read it anyway to familiarize yourself with the procedure.
 
 # Prerequisites #
 
 A homebrewed 3DS on the latest version of Luma3DS with boot9strap (If you haven't homebrewed your 3DS yet, follow 3ds.guide to join the party.)
 
-3DS SD Card with at least 8GB of free space (Assuming that you have not installed Ultra Moon or downloaded the rom hack)
+Your 3DS SD Card must have at least 8GB of free space (Assuming that you have not installed Ultra Moon or downloaded the rom hack)
 
 A computer that can access your SD card (You're probably reading this readme on that computer.)
+
+Basic knowledge of how to use GodMode9 and Checkpoint.
 
 
 # Installing Ultra Moon #
@@ -60,16 +62,33 @@ OOPS! Since the thing's still being created, just ignore everything from this pa
 
 If migrating from Citra, go to Migrating From Citra.
 1. If applicable make a backup of your Ultra Moon save using Checkpoint (you should already have it), name it something you'll remember (like UltraMoonSave), then delete your savefile in-game with D-Up + X + B. (Don't delete the backup!) Shut down your 3DS afterwards.
-2. Download PokemonStarLuma.zip (Very large, so will likely take a while.)
-3. When you've downloaded it, unzip it and move the romfs folder inside to /luma/titles/00040000001B5100 on your 3DS's SD card. (If the folder doesn't exist, create it)
-4. Hold Select when turning your 3DS back on.
-5. Turn on game patching in the Luma3DS config menu, then press start to leave the menu.
-6. Open Pokemon Ultra Moon and watch the fireworks fly. If you get a green screen, then the top of the screen says Pokemon Star v0.2 after the title screen, it's a good sign.
+2. Download a rom of Pokemon Star from that website... (If you're already using it on Citra, just grab your rom from there.)
+3. Trim the file using NDSTokyoTrim.
+4. Move it to your 3DS SD Card (location doesn't matter) and create a folder inside /luma/titles/00040000001B5100 called romfs. 
+5. Turn your 3DS on while holding Start. (If you see a chainloader menu, select GodMode9.)
+6. Navigate to the rom, select NCSD image options, then select Mount image to drive. Push A afterwards.
+
+
+## Folders To Copy & Delete ##
+
+Copy these folders from the romfs folder you see in the image to /luma/titles/00040000001B5100/romfs:
+1. Still figuring this out! Sorry...
+
+Note: After you copy a folder, push B to go back to the list of drives, then navigate back into your SD card to paste it into the romfs folder inside luma. After that, select the drive with the letter G to go back into the image. Repeat until you have all the folders copied.
+
+After copying those folders, delete these folders within /luma/titles/00040000001B5100/romfs:
+1. Also still figuring this out...
+
+## Finishing The Install ##
+1. Hold Select when turning your 3DS back on.
+2. Turn on game patching in the Luma3DS config menu, then press start to leave the menu.
+3. Open Pokemon Ultra Moon and watch the fireworks fly. If the first message of the phone call mentions Pokemon Star v0.2, you've done did it.
 
 
 ## Migrating from Citra ##
 1. Boot vanilla Ultra Sun on your 3DS at least once.
-2. Select your Pokemon Star save file from Citra, then copy it over 
+2. Select your Pokemon Star save file from Citra, then copy it over.
+3. Go back to Installing The Rom Hack.
 
 
 # Going Back To Vanilla #
@@ -87,6 +106,8 @@ If migrating from Citra, go to Migrating From Citra.
 2. If you deleted Pokemon Star, redownload it and put it back in /luma/titles/00040000001B5100.
 
 
-# Changelog #
+# Changelog & Things To Note#
+Until mentioned otherwise, the overworld will remain the same. My apologies, it's just a limitation of that imfamous a083 garc. Maybe it'll be fixable in the future?
+
 v0.1 Initial Release (??? GB)
 Trying to find out a way that it'll work... Hang tight!
