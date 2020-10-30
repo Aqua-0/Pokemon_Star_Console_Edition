@@ -1,94 +1,73 @@
-# Pokemon Star v0.2: Luma Edition
-Taking Pokemon Star v0.2, made by Rusyaas and turning it into a Luma3DS patch that may be console-playable.
+# Pokemon Star v0.2: Console Edition
+# Note: This guide is currently undergoing renovations! #
+RadoMiami was updating this guide, but then he got sleepy and decided to go to bed. In the meantime, please ignore the below instructions.
 
-Disclaimer: This is very experimental, and very unfinished. If you want to help this to not be a lost cause and finally make Pokemon Star playable on console, throw all the ideas you have at me. Furthermore, since the technique hasn't been quite refined yet, simply ignore this readme for now. If you really want to, read it anyway to familiarize yourself with the procedure.
+
+Taking Pokemon Star v0.2, made by Rusyaas and turning it into a console-playable state.
+WARNING: If you have already downloaded Pokemon Ultra Moon, make (ABSOL)UTELY SURE that you have changed the Title ID of the final rom you'll have. Otherwise, you may find that either your Pokemon Star spliced together ROM won't install or your vanilla Ultra Moon suddenly dissapears after installing. (The guide does NOT go over this, so you're unfortunately in the woods for now.) Furthermore, this WILL take a long time. Be prepared to bring your breakfast and lunch to your computer desk.
 
 # Prerequisites #
 
 A homebrewed 3DS on the latest version of Luma3DS with boot9strap (If you haven't homebrewed your 3DS yet, follow 3ds.guide to join the party.)
-
-Your 3DS SD Card must have at least 8GB of free space (Assuming that you have not installed Ultra Moon or downloaded the rom hack)
-
+Your 3DS SD Card must have at least 4GB of space.
+Your PC must have at least 12GB of space. (The rom hack won't take all this space for long, it will be reclaimed soon afterwards.)
 A computer that can access your SD card (You're probably reading this readme on that computer.)
+Basic knowledge on how to use GodMode9, Checkpoint, and HackingToolkit9DS. (You should have the first two, the third is at https://github.com/Asia81/HackingToolkit9DS-Deprecated-/releases).
 
-Basic knowledge of how to use GodMode9 and Checkpoint.
 
+# Obtain An Ultra Moon ROM #
 
-# Installing Ultra Moon #
-
-Get some form of Pokemon Ultra Moon. Download and install a rom from that site, grab your cart, rip then install a rom, just get Ultra Moon on your 3DS in a playable state somehow. However, I highly recommend supporting the devs and downloading Ultra Moon off of the eShop or buying an Ultra Moon cart if you don't have it or Ultra Sun. :D Those methods are much quicker and simpler, and they tell Game Freak that you like USUM, and hope they do more games like that in the future.
+Get some form of a Pokemon Ultra Moon ROM. Download and install a rom from that site, rip a rom, just get the Ultra Moon ROM somehow. However, I highly recommend supporting the devs and downloading Ultra Moon off of the eShop or buying an Ultra Moon cart if you don't have it or Ultra Sun. :D Those methods tell Game Freak that you like USUM, and hope they do more games like that in the future.
 (Note that only Ultra Moon will work for these instructions. The rom hack simply wasn't made with Ultra Sun in mind.)
 
-
-
 ## eShop Method (Recommended) ##
-1. Download the game off the eShop.
-2. You're done!
+1. Download the game off the eShop. (In this instance, make sure you have 8GB of free space before continuing!)
+2. Boot into GodMode9.
+3. Go into [A:] SYSNAND SD, then /title/.
+4. Press R+A while highlighting the 00040000 folder, then select "Search for titles".
+5. Scroll down the list until you see Pokemon Ultra Moon. (Ends in 001B5100!)
+6. Select "TMD file options..."
+7. Select "Build CIA (standard)" (This will take some time.)
 
-
-## Using a regular cart (Recommended) ##
-1. No setup needed! Go to Installing The Rom Hack! :D (Note that you will need to insert your Ultra Moon cart every time you want to play Pokemon Star, and for the rest of the guide we'll assume that you have your cartrige inserted.)
-
-
-## Convert .3ds rom to CIA ##
-1. Do one of the two below methods for getting your rom.
-2. Select NCSD image options, then choose Build CIA from file. (This will take some time.)
-3. Use FBI to install the CIA. (This will take some time.)
-
-
-### Rip a .3ds rom from cartridge ###
+## Rip a .3ds rom from cartridge (Also Recommended) ##
 1. Boot into GodMode9 by holding Start upon boot. If you see multiple options, select GodMode9.
-2. Insert your cart, then find 00040000001B5100_v00.3ds.
+2. Insert your cart, then find 00040000001B5100_v00.3ds in [C:] GAMECART.
 3. Push A, then select NCSD image options, then choose Decrypt file (0:/gm9/out) (This will take some time.)
-4. Go to gm9/out in the SD card drive, then select NCSD image options, then choose Trim file.
-5. Go on to Convert .3ds rom to CIA.
 
-### Download a .3ds rom (Unrecommended) ###
-1. Find the .3ds rom somewhere. (Blatant piracy isn't cool, so I can't help you with this one.)
-2. If the rom is 4gb, then trim it using a program like NDSTokyoTrim (https://eden.fm/ndstoykotrim/).
-3. Go on to Convert .3ds rom to CIA.
+## Download a .3ds rom (Unrecommended) ##
+1. Find the .3ds rom somewhere. (Blatant piracy isn't cool, so I can't help you with this one. Downloading it will take some time, depending on your internet speed.)
 
 
-## Install a CIA from the internet (Very unrecommended) ##
-1. Find the .cia somewhere. (Blatant piracy isn't cool, so I can't help you with this one. Be careful, tainted CIAs may do something malicous or be the wrong game)
-2. Use FBI to install the CIA. (This will take some time.)
+# While You Wait... #
+While you're waiting to get your UM rom, download Pokemon Star from that site. (If you already have it, skip this.) (Search "pokemon star rom", and you'll eventually find what you need.) Both will take a while, so it's better to knock them both out now.
 
 
-
-# Installing The Rom Hack #
-
-OOPS! Since the thing's still being created, just ignore everything from this part onwards. :P
-
-
-If migrating from Citra, go to Migrating From Citra.
-1. If applicable make a backup of your Ultra Moon save using Checkpoint (you should already have it), name it something you'll remember (like UltraMoonSave), then delete your savefile in-game with D-Up + X + B. (Don't delete the backup!) Shut down your 3DS afterwards.
-2. Download a rom of Pokemon Star from that website... (If you're already using it on Citra, just grab your rom from there.)
-3. Trim the file using NDSTokyoTrim.
-4. Move it to your 3DS SD Card (location doesn't matter) and create a folder inside /luma/titles/00040000001B5100 called romfs. 
-5. Turn your 3DS on while holding Start. (If you see a chainloader menu, select GodMode9.)
-6. Navigate to the rom, select NCSD image options, then select Mount image to drive. Push A afterwards.
-
-
-## Folders To Copy & Delete ##
-
-Copy these folders from the romfs folder you see in the image to /luma/titles/00040000001B5100/romfs:
-1. Still figuring this out! Sorry...
-
-Note: After you copy a folder, push B to go back to the list of drives, then navigate back into your SD card to paste it into the romfs folder inside luma. After that, select the drive with the letter G to go back into the image. Repeat until you have all the folders copied.
-
-After copying those folders, delete these folders within /luma/titles/00040000001B5100/romfs:
-1. Also still figuring this out...
-
-## Finishing The Install ##
-1. Hold Select when turning your 3DS back on.
-2. Turn on game patching in the Luma3DS config menu, then press start to leave the menu.
-3. Open Pokemon Ultra Moon and watch the fireworks fly. If the first message of the phone call mentions Pokemon Star v0.2, you've done did it.
+# Creating The Rom #
+1. After downloading HackingToolkit9DS, put the .3ds Pokemon Star rom in the PackHack folder.
+2. Make sure you run SetupUS.exe first, or it may not work.
+3. After it finishes, trim your Pokemon Star rom on your PC using something like NDSTokyoTrim.
+4. Mount the ripped Ultra Moon rom by selecting NCSD image options, then Mount image to drive.
+5. Go into content0.game/romfs/a/0/8, then copy the file called "3" to some place on your SD card. If you want, rename it to something like "clean a083", though note you will have to change its name back later.
+6. Select the Ultra Moon rom again, then push A when it tells you to unmount to unlock the file.
+7. If you're not planning on converting it into a CIA, delete the Pokemon Moon rom, then turn off the 3DS.
+8. Put the trimmed Pokemon Star rom on your 3DS, then do 7 again with it.
+9. Go into content0.game, but this time copy the entire romfs and exefs folder to somewhere on your SD card.
+10. Replace the content0.game/romfs/a/0/8/3 file with the one you got from the UM rom.
+11. Turn off your 3DS, then put the spliced together romfs folder and the untouched exefs folder back onto your computer.
+12. In the folder where you installed HackingToolkit9DS, there should be an ExtraTools folder.
+13. Run the tool 3DS Builder Mod.
+14. Select the romfs folder that you spliced together, the DecryptedExeFS.bin file from the main folder, and the DecryptedExHeader.bin file from the main folder. (If you know what you're doing, modify them to your liking. But I don't, so we won't touch that.)
+15. Put in a serial number. Put anything down that isn't already in use! (CTR-P-STAR works just fine.)
+16. Wait for it to build, then move it to your 3DS. 
 
 
-## Migrating from Citra ##
-1. Boot vanilla Ultra Sun on your 3DS at least once.
-2. Select your Pokemon Star save file from Citra, then copy it over.
-3. Go back to Installing The Rom Hack.
+# Cleanup #
+1. If you picked the correct deity, or got super lucky, then this went of without a hitch! (Can't say the same for me writing this...) As Gamechamp3000 said in her first video about a low-shot run of Octo Expansion, "Turns out all you needed to conquer death was a spoonful of elbow grease and a freighter loaded with pain and suffering!"
+2. 
+
+# Migrating from Citra #
+1. Boot the spliced together on your 3DS at least once.
+2. Select your Pokemon Star save file from Citra, then copy it over. (I'll go more into detail later...)
 
 
 # Going Back To Vanilla #
