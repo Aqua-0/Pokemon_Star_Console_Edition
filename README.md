@@ -1,15 +1,13 @@
 # Pokemon Star v0.2: Console Edition
-# Note: This guide is currently undergoing renovations! #
-RadoMiami was updating this guide, but then he got sleepy and decided to go to bed. In the meantime, please ignore the below instructions.
 
 
 Taking Pokemon Star v0.2, made by Rusyaas and turning it into a console-playable state.
-WARNING: If you have already downloaded Pokemon Ultra Moon, make (ABSOL)UTELY SURE that you have changed the Title ID of the final rom you'll have. Otherwise, you may find that either your Pokemon Star spliced together ROM won't install or your vanilla Ultra Moon suddenly dissapears after installing. (The guide does NOT go over this, so you're unfortunately in the woods for now.) Furthermore, this WILL take a long time. Be prepared to bring your breakfast and lunch to your computer desk.
+WARNING: If you have already downloaded Pokemon Ultra Moon (not using a cart), make (ABSOL)UTELY SURE that you do ALL the instructions later on. Without, bad things may happen...
 
 # Prerequisites #
 
 A homebrewed 3DS on the latest version of Luma3DS with boot9strap (If you haven't homebrewed your 3DS yet, follow 3ds.guide to join the party.)
-Your 3DS SD Card must have at least 4GB of space.
+Your 3DS SD Card must have at least 8GB of space.
 Your PC must have at least 12GB of space. (The rom hack won't take all this space for long, it will be reclaimed soon afterwards.)
 A computer that can access your SD card (You're probably reading this readme on that computer.)
 Basic knowledge on how to use GodMode9, Checkpoint, and HackingToolkit9DS. (You should have the first two, the third is at https://github.com/Asia81/HackingToolkit9DS-Deprecated-/releases).
@@ -25,17 +23,20 @@ Get some form of a Pokemon Ultra Moon ROM. Download and install a rom from that 
 2. Boot into GodMode9.
 3. Go into [A:] SYSNAND SD, then /title/.
 4. Press R+A while highlighting the 00040000 folder, then select "Search for titles".
-5. Scroll down the list until you see Pokemon Ultra Moon. (Ends in 001B5100!)
+5. Scroll down the list until you see Pok??mon Ultra Moon. (Number to left ends in 001B5100!)
 6. Select "TMD file options..."
 7. Select "Build CIA (standard)" (This will take some time.)
+8. Turn off the 3DS, then copy the CIA you built to the PC.
+9. Use https://github.com/davFaithid/CIA-to-3DS-Rom-Converter/releases to convert the CIA to a 3DS ROM. (Instructions should be in the two batchfile zip.)
+10. Move the ROM back to the 3DS.
 
 ## Rip a .3ds rom from cartridge (Also Recommended) ##
 1. Boot into GodMode9 by holding Start upon boot. If you see multiple options, select GodMode9.
 2. Insert your cart, then find 00040000001B5100_v00.3ds in [C:] GAMECART.
 3. Push A, then select NCSD image options, then choose Decrypt file (0:/gm9/out) (This will take some time.)
 
-## Download a .3ds rom (Unrecommended) ##
-1. Find the .3ds rom somewhere. (Blatant piracy isn't cool, so I can't help you with this one. Downloading it will take some time, depending on your internet speed.)
+## Download a .3ds rom (Unrecommended, unless you have Ultra Sun) ##
+1. Find the .3ds rom somewhere and move it to your 3DS. (Blatant piracy isn't cool, so I can't help you with this one. Downloading it will take some time, depending on your internet speed.)
 
 
 # While You Wait... #
@@ -51,42 +52,37 @@ While you're waiting to get your UM rom, download Pokemon Star from that site. (
 6. Select the Ultra Moon rom again, then push A when it tells you to unmount to unlock the file.
 7. If you're not planning on converting it into a CIA, delete the Pokemon Moon rom, then turn off the 3DS.
 8. Put the trimmed Pokemon Star rom on your 3DS, then do 7 again with it.
-9. Go into content0.game, but this time copy the entire romfs and exefs folder to somewhere on your SD card.
+9. Go into content0.game, but this time copy the entire romfs and exefs folders, in addition to extheader.bin to somewhere on your SD card.
 10. Replace the content0.game/romfs/a/0/8/3 file with the one you got from the UM rom.
 11. Turn off your 3DS, then put the spliced together romfs folder and the untouched exefs folder back onto your computer.
-12. In the folder where you installed HackingToolkit9DS, there should be an ExtraTools folder.
-13. Run the tool 3DS Builder Mod.
-14. Select the romfs folder that you spliced together, the DecryptedExeFS.bin file from the main folder, and the DecryptedExHeader.bin file from the main folder. (If you know what you're doing, modify them to your liking. But I don't, so we won't touch that.)
-15. Put in a serial number. Put anything down that isn't already in use! (CTR-P-STAR works just fine.)
-16. Wait for it to build, then move it to your 3DS. 
+12. In the folder where you installed HackingToolkit9DS, there should be an ExtraTools folder (For convinence sake, put the folders there.
+13. Replace the banner and icon files in the exefs folder from the ones I posted on the Github, and rename the file .code file to .code.bin. (Weird things happen if you don't.)
+14. Run the tool 3DS Builder Mod.
+15. Select the romfs folder that you spliced together, the exefs folder, and the extheader.bin file. (If you know what you're doing, modify them to your liking. But I don't, so we won't touch that.)
+16. Put in a serial number. Put anything down that isn't already in use! (CTR-P-STAR works just fine.)
+17. Wait for it to build, then move it to your 3DS. 
+18. Select "NCSD image options", then choose "Build CIA from file", then pray to your deity of choice that it works. (This will take some time. If there's an error, make sure that you didn't forget any steps. (If you see an ETA, it's a good sign!)
+19. If you play Ultra Moon downloaded from the eShop, proceed with the rest of Creating The Rom. Otherwise, just skip it.
+20. Turn off your 3DS, the
 
 
 # Cleanup #
 1. If you picked the correct deity, or got super lucky, then this went of without a hitch! (Can't say the same for me writing this...) As Gamechamp3000 said in her first video about a low-shot run of Octo Expansion, "Turns out all you needed to conquer death was a spoonful of elbow grease and a freighter loaded with pain and suffering!"
-2. 
+2. Delete the original .3ds file and the downloaded pokemon star .3ds file if you haven't already.
+3. Reboot your 3DS, then install the file with FBI.
+4. Fire up the game. If you see Kukui instead of Wicke, you messed up somewhere. The text from anytime after the opening cinematic should be the same, but the models will still be the originals. :(
+5. Delete the spliced together pokemon star .3ds file.
+6. Delete the applications you had to install as a part of the setup.
+
 
 # Migrating from Citra #
-1. Boot the spliced together on your 3DS at least once.
-2. Select your Pokemon Star save file from Citra, then copy it over. (I'll go more into detail later...)
+1. Boot the spliced together game on your 3DS at least once.
+2. Select your Pokemon Star save file from Citra, then copy it over. (I'll go more into detail when I finish this guide...)
 
 
-# Going Back To Vanilla #
-
-1. Go into Checkpoint and make another save backup. Name it something you'll remember, like PokemonStarSave.
-2. Restore your vanilla save backup.
-3. Turn off your 3DS, then turn it on again while holding Select.
-4. Turn off game patching in the Luma3DS config menu, then press start to leave the menu.
-5. If you want to delete Pokemon Star, then go into /luma/titles/00040000001B5100 and delete the romfs folder. (Optional)
-
-
-# Going Back To Pokemon Star #
-
-1. Follow Going Back To Vanilla, but do the opposite of 1 - 4. (Back up your vanilla save, restore your Pokemon Star save, then turn back on game patching.)
-2. If you deleted Pokemon Star, redownload it and put it back in /luma/titles/00040000001B5100.
-
-
-# Changelog & Things To Note#
+# Changelog & Things To Note #
 Until mentioned otherwise, the overworld will remain the same. My apologies, it's just a limitation of that imfamous a083 garc. Maybe it'll be fixable in the future?
-
-v0.1 Initial Release (??? GB)
-Trying to find out a way that it'll work... Hang tight!
+v0.1: First sucessful experiment.
+Banner and icons: Replaceable.
+Modded a083 garc: Probably still broken.
+Thinking about trying to fix a083 garc: Some day...
