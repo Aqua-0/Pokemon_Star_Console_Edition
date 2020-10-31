@@ -37,6 +37,7 @@ Get some form of a Pokemon Ultra Moon ROM. Download and install a rom from that 
 
 ## Download a .3ds rom (Unrecommended, unless you have Ultra Sun) ##
 1. Find the .3ds rom somewhere and move it to your 3DS. (Blatant piracy isn't cool, so I can't help you with this one. Downloading it will take some time, depending on your internet speed.)
+2. Move the .3ds rom to your 3DS SD card, then boot into GodMode9 by holding Start while booting.
 
 
 # While You Wait... #
@@ -51,25 +52,26 @@ While you're waiting to get your UM rom, download Pokemon Star from that site. (
 5. Go into content0.game/romfs/a/0/8, then copy the file called "3" to some place on your SD card. If you want, rename it to something like "clean a083", though note you will have to change its name back later.
 6. Select the Ultra Moon rom again, then push A when it tells you to unmount to unlock the file.
 7. If you're not planning on converting it into a CIA, delete the Pokemon Moon rom, then turn off the 3DS.
-8. Put the trimmed Pokemon Star rom on your 3DS, then do 7 again with it.
-9. Go into content0.game, but this time copy the entire romfs and exefs folders, in addition to extheader.bin to somewhere on your SD card.
+8. Put the trimmed Pokemon Star rom on your 3DS, then do 4 again with it.
+9. Go into content0.game, but this time copy the entire romfs and exefs folders, in addition to extheader.bin file to somewhere on your SD card.
 10. Replace the content0.game/romfs/a/0/8/3 file with the one you got from the UM rom.
 11. Turn off your 3DS, then put the spliced together romfs folder and the untouched exefs folder back onto your computer.
 12. In the folder where you installed HackingToolkit9DS, there should be an ExtraTools folder (For convinence sake, put the folders there.
-13. Replace the banner and icon files in the exefs folder from the ones I posted on the Github, and rename the file .code file to .code.bin. (Weird things happen if you don't.)
+13. Replace the banner and icon files in the exefs folder from the ones in the exefs.zip file posted on the Github, and rename the file .code file in the exefs folder to .code.bin. (Weird things happen if you don't.)
 14. Run the tool 3DS Builder Mod.
 15. Select the romfs folder that you spliced together, the exefs folder, and the extheader.bin file. (If you know what you're doing, modify them to your liking. But I don't, so we won't touch that.)
-16. Put in a serial number. Put anything down that isn't already in use! (CTR-P-STAR works just fine.)
+16. Put in a serial number, anything that isn't already in use. (CTR-P-STAR works just fine.)
 17. Wait for it to build, then move it to your 3DS. 
 18. Select "NCSD image options", then choose "Build CIA from file", then pray to your deity of choice that it works. (This will take some time. If there's an error, make sure that you didn't forget any steps. (If you see an ETA, it's a good sign!)
 19. If you play Ultra Moon downloaded from the eShop, proceed with the rest of Creating The Rom. Otherwise, just skip it.
-20. Turn off your 3DS, the
+20. Reboot into the home menu, then use Checkpoint to back up your Ultra Moon save. Name it something like "VanillaUMSave".
+21. Delete Ultra Moon from your 3DS, then proceed.
 
 
 # Cleanup #
 1. If you picked the correct deity, or got super lucky, then this went of without a hitch! (Can't say the same for me writing this...) As Gamechamp3000 said in her first video about a low-shot run of Octo Expansion, "Turns out all you needed to conquer death was a spoonful of elbow grease and a freighter loaded with pain and suffering!"
 2. Delete the original .3ds file and the downloaded pokemon star .3ds file if you haven't already.
-3. Reboot your 3DS, then install the file with FBI.
+3. Reboot your 3DS, then install and delete the file with FBI. (For convenience, back up the CIA file before you install and delete it.)
 4. Fire up the game. If you see Kukui instead of Wicke, you messed up somewhere. The text from anytime after the opening cinematic should be the same, but the models will still be the originals. :(
 5. Delete the spliced together pokemon star .3ds file.
 6. Delete the applications you had to install as a part of the setup.
@@ -79,6 +81,11 @@ While you're waiting to get your UM rom, download Pokemon Star from that site. (
 1. Boot the spliced together game on your 3DS at least once.
 2. Select your Pokemon Star save file from Citra, then copy it over. (I'll go more into detail when I finish this guide...)
 
+
+# Returning to Vanilla #
+1. Make a backup of your Pokemon Star save with Checkpoint. Name it something like "PkmnStarSave".
+2. Delete Pokemon Star from your 3DS, then redownload Ultra Moon.
+3. Load the backup of your Ultra Moon save.
 
 # Changelog & Things To Note #
 Until mentioned otherwise, the overworld will remain the same. My apologies, it's just a limitation of that imfamous a083 garc. Maybe it'll be fixable in the future?
