@@ -53,7 +53,7 @@ After doing one of the three, follow one of the below depending on which game it
 3. Select the file named "2", then select Copy to 0:/gm9/out. (This will take some time.)
 4. Turn off your 3DS, then move the file to your computer.
 5. Download patches.zip from this Github.
-6. Apply the umonly.xdelta patch using the included xdelta tool.
+6. Apply the umonly.xdelta patch using xdelta. (https://www.romhacking.net/utilities/598/)
 7. Rename the file to "3", then move the now patched file back to your 3DS.
 
 
