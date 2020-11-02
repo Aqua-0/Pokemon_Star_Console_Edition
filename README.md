@@ -77,14 +77,14 @@ While you're waiting to get your USUM rom, download Pokemon Star from that site.
 12. Wait for it to build, then move it to your 3DS. 
 13. Select "NCSD image options", then choose "Build CIA from file", then pray to your deity of choice that it works. (This will take some time. If there's an error, make sure that you didn't forget any steps. (If you see an ETA, it's a good sign!)
 14. Delete the ROM that you built. (DO NOT DELETE THE CIA!)
-15. If you got Ultra Moon by downloading it off the eShop, backup the save file through Checkpoint and delete both the game and the update data.
+15. If you got Ultra Moon by downloading it off the eShop, backup the save file through Checkpoint and delete the game
 
 
 # Installation & Cleanup #
 1. If you picked the correct deity, or got super lucky, then this went of without a hitch! As Gamechamp3000 said in her first video about a low-shot run of Octo Expansion, "Turns out all you needed to conquer death was a spoonful of elbow grease and a freighter loaded with pain and suffering!"
 2. Delete the original .cia/.3ds file and the downloaded pokemon star .3ds file if you haven't already.
 3. Reboot your 3DS, then install and delete the file with FBI. (For convenience, back up the CIA file to your computer beforehand.)
-4. Fire up the game. If you see Kukui instead of Wicke, you messed up somewhere. The text from anytime after the opening cinematic should be the same, but the models will unfortunately still be the originals. Fixing them will be a major undertaking, assuming I even go down that route.
+4. Update if it asks you to, then fire up the game. If you see Kukui instead of Wicke, you messed up somewhere. The text from anytime after the opening cinematic should be the same, but the models will unfortunately still be the originals. Fixing them will be a major undertaking, assuming I even go down that route.
 
 
 # Migrating from Citra #
