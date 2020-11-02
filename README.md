@@ -2,7 +2,7 @@
 
 
 Taking Pokemon Star v0.2, made by Rusyaas and turning it into a console-playable state.
-WARNING: If you have already downloaded Pokemon Ultra Moon (not using a cart), make (ABSOL)UTELY SURE that you do ALL the instructions later on. Without, bad things may happen...
+WARNING: If you have already downloaded Pokemon Ultra Moon (not using a cart), make (ABSOL)UTELY SURE that you delete Ultra Moon when the guide tells you to. Otherwise, bad things may happen...
 
 # Prerequisites #
 
@@ -81,10 +81,10 @@ While you're waiting to get your USUM rom, download Pokemon Star from that site.
 
 
 # Installation & Cleanup #
-1. If you picked the correct deity, or got super lucky, then this went of without a hitch! (Can't say the same for me writing this...) As Gamechamp3000 said in her first video about a low-shot run of Octo Expansion, "Turns out all you needed to conquer death was a spoonful of elbow grease and a freighter loaded with pain and suffering!"
-2. Delete the original .3ds file and the downloaded pokemon star .3ds file if you haven't already.
-3. Reboot your 3DS, then install and delete the file with FBI. (For convenience, back up the CIA file before you install and delete it.)
-4. Fire up the game. If you see Kukui instead of Wicke, you messed up somewhere. The text from anytime after the opening cinematic should be the same, but the models will still be the originals. :(
+1. If you picked the correct deity, or got super lucky, then this went of without a hitch! As Gamechamp3000 said in her first video about a low-shot run of Octo Expansion, "Turns out all you needed to conquer death was a spoonful of elbow grease and a freighter loaded with pain and suffering!"
+2. Delete the original .cia/.3ds file and the downloaded pokemon star .3ds file if you haven't already.
+3. Reboot your 3DS, then install and delete the file with FBI. (For convenience, back up the CIA file to your computer beforehand.)
+4. Fire up the game. If you see Kukui instead of Wicke, you messed up somewhere. The text from anytime after the opening cinematic should be the same, but the models will unfortunately still be the originals. Fixing them will be a major undertaking, assuming I even go down that route.
 
 
 # Migrating from Citra #
@@ -97,6 +97,13 @@ While you're waiting to get your USUM rom, download Pokemon Star from that site.
 1. Make a backup of your Pokemon Star save with Checkpoint. Name it something like "PkmnStarSave".
 2. Delete Pokemon Star from your 3DS, then redownload Ultra Moon.
 3. Load the backup of your Ultra Moon save.
+
+
+# Credits #
+Nintendo - Publisher of Ultra Sun and Ultra Moon
+Game Freak - Developer of Ultra Sun and Ultra Moon
+Rusyaeffy - Developer and Publisher of Pokemon Star
+RadoMiami - Trying desperately to port Pokemon Star to console...
 
 # Changelog #
 v0.1 (10/31/20): First sucessful experiment.
