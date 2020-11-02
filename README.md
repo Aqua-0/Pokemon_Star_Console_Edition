@@ -22,7 +22,7 @@ Get some form of a Pokemon Ultra Moon or Ultra Sun ROM. Download and install a r
 2. Boot into GodMode9.
 3. Go into [A:] SYSNAND SD, then /title/.
 4. Press R+A while highlighting the 00040000 folder, then select "Search for titles".
-5. Scroll down the list until you see Pok??mon Ultra Moon. (Number to left ends in 001B5100!)
+5. Scroll down the list until you see Pok??mon Ultra Moon or Pok??mon Ultra Sun. (Number to left ends in 001B5100 and 001B500 respectively!)
 6. Select "TMD file options..."
 7. Select "Build CIA (standard)" (This will take some time.)
 
@@ -53,7 +53,7 @@ After doing one of the three, follow one of the below depending on which game it
 3. Select the file named "2", then select Copy to 0:/gm9/out. (This will take some time.)
 4. Turn off your 3DS, then move the file to your computer.
 5. Download patches.zip from this Github.
-6. Apply the umonly.xdelta patch using xdelta. (https://www.romhacking.net/utilities/598/)
+6. Apply the usonly.xdelta patch using xdelta. (https://www.romhacking.net/utilities/598/)
 7. Rename the file to "3", then move the now patched file back to your 3DS.
 
 
@@ -104,5 +104,5 @@ Banner and icons: Replaced.
 Modded a083 garc: Probably still broken.
 Thinking about trying to fix a083 garc: Some day...
 
-v0.2 (11/1/20): Added US support via an xdelta patch.
+v0.1.1 (11/1/20): Added US support via an xdelta patch.
 
