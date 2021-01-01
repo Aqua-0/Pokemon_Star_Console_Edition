@@ -6,7 +6,7 @@ WARNING: If you have already downloaded Pokemon Ultra Moon (not using a cart), m
 
 # Prerequisites #
 
-1. A homebrewed 3DS on the latest version of Luma3DS with boot9strap (If you haven't homebrewed your 3DS yet, follow 3ds.guide to join the party.)
+1. A homebrewed 3DS on the latest version of Luma3DS (If you haven't homebrewed your 3DS yet, follow 3ds.guide to join the party.)
 2. Your 3DS SD Card must have at least 8GB of space.
 3. A PC with at least 12GB of space. (The rom hack won't take all this space for long, it will be reclaimed soon afterwards.)
 4. An SD to USB adapter so you can actually use the SD card on your computer. (Or if you have an SD card slot on your PC, that works too)
@@ -100,11 +100,16 @@ While you're waiting to get your a083 garc, download Pokemon Star from that site
 
 
 # Credits #
-1. Nintendo - Publisher of Ultra Sun and Ultra Moon
-2. Game Freak - Developer of Ultra Sun and Ultra Moon
-3. Rusyaeffy - Developer and Publisher of Pokemon Star
-4. RadoMiami - Trying desperately to port Pokemon Star to console...
-4.5. AquaSamurott - Fixing a083 garc for console. (Didn't ask them to do this, but they just kinda announced it on New Year's Eve.)
+Nintendo - Publisher of Ultra Sun and Ultra Moon
+
+Game Freak - Developer of Ultra Sun and Ultra Moon
+
+Rusyaeffy - Developer and Publisher of Pokemon Star
+
+RadoMiami - Writer of this guide
+
+AquaSamurott - Fixing a083 garc for console. (Didn't ask them to do this, but they just kinda announced it on New Year's Eve.)
+
 # Changelog #
 v0.1 (10/31/20): First sucessful experiment.
 Banner and icons: Replaced.
