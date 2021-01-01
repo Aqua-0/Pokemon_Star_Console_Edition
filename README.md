@@ -83,7 +83,7 @@ While you're waiting to get your a083 garc, download Pokemon Star from that site
 # Installation & Cleanup #
 1. If you picked the correct deity, or got super lucky, then this went of without a hitch! As Gamechamp3000 said in her first video about a low-shot run of Octo Expansion, "Turns out all you needed to conquer death was a spoonful of elbow grease and a freighter loaded with pain and suffering!"
 2. Delete the USUM .cia/.3ds file and the downloaded pokemon star .3ds file if you haven't already.
-3. Reboot your 3DS, then install and delete the file with FBI. (For convenience, back up the CIA file to your computer beforehand.)
+3. Reboot your 3DS, then install and delete the .cia Pokemon Star file with FBI. (For convenience, back up the CIA file to your computer beforehand.)
 4. Update if it asks you to, then fire up the game. If you see Kukui instead of Wicke, you messed up somewhere. The text from anytime after the opening cinematic should be the same, but the models will unfortunately still be the originals. Fixing them will be a major undertaking, assuming I even go down that route.
 
 
@@ -95,8 +95,9 @@ While you're waiting to get your a083 garc, download Pokemon Star from that site
 
 # Returning to Vanilla #
 1. Make a backup of your Pokemon Star save with Checkpoint. Name it something like "PkmnStarSave".
-2. Delete Pokemon Star from your 3DS, then redownload Ultra Moon.
-3. Load the backup of your Ultra Moon save.
+2. Delete Pokemon Star from your 3DS.
+3. If you play the digital version of UM, redownload it.
+4. If you play the digital version of UM, load the backup of your Ultra Moon save.
 
 
 # Credits #
@@ -118,4 +119,4 @@ Thinking about trying to fix a083 garc: Some day...
 
 v0.1.1 (11/1/20): Added US support via an xdelta patch.
 
-Still v0.1.1 (12/31/20): AquaSamurott begins fixing a083 garc. Never asked them to do so, but glad they're doing it nonetheless.
+Still v0.1.1 (12/31/20): AquaSamurott begins fixing a083 garc. Never asked them to do so, but glad they're doing it nonetheless.\
