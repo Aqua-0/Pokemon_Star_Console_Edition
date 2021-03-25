@@ -109,10 +109,6 @@ While you're waiting to get your a083 garc, download Pokemon Star from that site
 3. If you play the digital version of UM, redownload it.
 4. If you play the digital version of UM, load the backup of your Ultra Moon save.
 
-# Patching a083 with xDelta #
-1. Get xDelta patcher from above (https://www.romhacking.net/utilities/704/) and apply the Stars_083_v0.x.xdelta patch to the a083 garc (named "3") extracted from a legitimate copy earlier.
-2. Take your newly patched garc and either rebuild your rom with it or use layeredFS to patch it. (When using layeredFS, make sure you place the garc in romfs/a/0/8/).
-
 # Credits #
 Nintendo - Publisher of Ultra Sun and Ultra Moon
 
