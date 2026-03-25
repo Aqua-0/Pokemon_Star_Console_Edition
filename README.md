@@ -59,7 +59,7 @@ After doing one of the three, follow one of the below depending on which game it
 
 # Patching a083 with xDelta #
 1. Get xDelta patcher from above (https://www.romhacking.net/utilities/704/) and apply the Stars_083_v0.x.xdelta patch to the a083 garc (named "3") extracted from a legitimate Ultra Moon copy (or converted from Ultra Sun) earlier.
-2. Keep track of your newly patched garc, it should be 473,143kb. 
+2. Keep track of your newly patched garc, it should be 488,621,448 bytes.
 
 
 # While You Wait... #
