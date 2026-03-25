@@ -131,3 +131,5 @@ v0.1.1 (11/1/20): Added US support via an xdelta patch.
 Still v0.1.1 (12/31/20): AquaSamurott begins fixing a083 garc. Never asked them to do so, but glad they're doing it nonetheless.\
 
 v0.1.2 (3/25/21): First prerelease of fixed a083. 
+
+v0.1.3 (3/24/26): Hopefully last release of fixed a083. 
