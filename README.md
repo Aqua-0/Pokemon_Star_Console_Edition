@@ -133,3 +133,5 @@ Still v0.1.1 (12/31/20): AquaSamurott begins fixing a083 garc. Never asked them 
 v0.1.2 (3/25/21): First prerelease of fixed a083. 
 
 v0.1.3 (3/24/26): Hopefully last release of fixed a083. 
+
+v0.1.4 (3/25/26): Fixed the missing mipmaps for both console and emulator versions with the latest patch. 
